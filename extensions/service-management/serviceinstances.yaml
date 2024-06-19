@@ -43,6 +43,7 @@ data:
       - name: BTP Service Binding
         source: '$myServiceBindings()'
         widget: ResourceList
+        disableCreate: true
       - name: spec.parameters
         source: spec.parameters
         widget: CodeViewer
