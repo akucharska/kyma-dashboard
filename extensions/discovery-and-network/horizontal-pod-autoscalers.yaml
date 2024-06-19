@@ -68,7 +68,7 @@ data:
                 source: policies
                 widget: Table
                 showHeader: true
-                disablePadding: true
+                disablePadding: false
                 children:
                   - name: Type
                     source: type

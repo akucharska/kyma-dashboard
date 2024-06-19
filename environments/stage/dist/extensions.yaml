@@ -1174,7 +1174,7 @@ details:
               source: policies
               widget: Table
               showHeader: true
-              disablePadding: true
+              disablePadding: false
               children:
                 - name: Type
                   source: type
@@ -2773,6 +2773,7 @@ details:
     - name: BTP Service Binding
       source: $myServiceBindings()
       widget: ResourceList
+      disableCreate: true
     - name: spec.parameters
       source: spec.parameters
       widget: CodeViewer
